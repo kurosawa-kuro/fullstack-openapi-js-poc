@@ -2,6 +2,14 @@
 
 OpenAPI駆動開発による高速プロトタイピング用の Node.js + Express + Vue.js フルスタック構成
 
+項目	今後の主流ワークフロー
+設計	OpenAPIから逆流設計（Zod、DBスキーマ）
+フロント	mswベースの開発（仮API）
+テスト	Playwright仕様ドリブン開発
+バックエンド	openapi-backendなどで機械的に実装
+QA/受け入れ	E2Eテストパス = 承認基準
+ドキュメント	OpenAPI = すべての真実源（single source of truth）
+
 ## 🎯 プロジェクト概要
 
 このプロジェクトは、**OpenAPI 3.0 駆動開発**による高速プロトタイピングを実現するフルスタック構成です。
