@@ -35,26 +35,36 @@ OpenAPI駆動開発による高速プロトタイピング用の Node.js + Expre
 
 ## 🛠 技術スタック
 
-### バックエンド
-- **Express 5.x** - 最新Web フレームワーク
-- **lowdb 7.x** - ファイルベースJSON Database (プロトタイピング用)
-- **openapi-backend** - OpenAPI 3.0 駆動ルーティング
-- **Zod** - 型安全スキーマバリデーション
-- **JWT** - ステートレス認証
-- **bcrypt** - パスワードハッシュ化
-- **Jest + Supertest** - 統合テスト
+### バックエンド（必須度順）
+1. **Express 5.x** - 最新Web フレームワーク
+2. **Zod** - 型安全スキーマバリデーション
+3. **dotenv** - 環境変数管理
+4. **CORS** - クロスオリジン対応
+5. **openapi-backend** - OpenAPI 3.0 駆動ルーティング
+6. **lowdb 7.x** - ファイルベースJSON Database (プロトタイピング用)
+7. **JWT** - ステートレス認証
+8. **bcrypt** - パスワードハッシュ化
+9. **Helmet** - セキュリティヘッダー
+10. **morgan** - HTTPリクエストログ
+11. **express-rate-limit** - API Rate Limiting
+12. **Jest + Supertest** - 統合テスト
 
-### フロントエンド
-- **Vue 3** - リアクティブUI フレームワーク
-- **Vite** - 高速ビルドツール
-- **Vue Router** - SPA ルーティング
+### フロントエンド（必須度順）
+1. **Vue 3** - リアクティブUI フレームワーク
+2. **Vite** - 高速ビルドツール
+3. **Vue Router** - SPA ルーティング
+4. **Pinia** - 状態管理ライブラリ
+5. **Tailwind CSS** - ユーティリティファーストCSS フレームワーク
+6. **Playwright** - E2E テスト自動化ツール
 
-### 共通・開発ツール
-- **OpenAPI 3.0** - API仕様定義
-- **Swagger UI** - API ドキュメント自動生成
-- **Helmet** - セキュリティヘッダー
-- **CORS** - クロスオリジン対応
-- **Rate Limiting** - API保護
+### 共通・開発ツール（必須度順）
+1. **OpenAPI 3.0** - API仕様定義
+2. **Swagger UI** - API ドキュメント自動生成
+3. **cross-env** - クロスプラットフォーム環境変数
+4. **concurrently** - 複数プロセス同時実行
+5. **husky** - Git フック管理
+6. **lint-staged** - コミット前の自動整形
+7. **commitizen** - コミットメッセージ規約
 
 ## 📁 プロジェクト構造
 
