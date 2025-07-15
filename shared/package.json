@@ -1,0 +1,9 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "Shared schemas and OpenAPI specifications",
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.25.74"
+  }
+}

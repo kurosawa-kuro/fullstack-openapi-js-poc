@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "content": "Hello, this is my first micropost!",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "content": "Learning Express.js and OpenAPI today.",
+    "createdAt": "2024-01-15T11:00:00Z"
+  },
+  {
+    "id": 3,
+    "userId": 2,
+    "content": "Working on a new API project.",
+    "createdAt": "2024-01-16T15:00:00Z"
+  },
+  {
+    "id": 4,
+    "userId": 2,
+    "content": "Testing is important for quality code.",
+    "createdAt": "2024-01-16T16:30:00Z"
+  },
+  {
+    "id": 5,
+    "userId": 3,
+    "content": "Just joined the platform!",
+    "createdAt": "2024-01-17T09:30:00Z"
+  }
+]

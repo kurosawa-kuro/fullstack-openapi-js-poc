@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test User",
+      "email": "test@example.com",
+      "bio": "Test user for authentication",
+      "location": "Test Location",
+      "website": "https://test.example.com",
+      "roles": [
+        "user"
+      ],
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "passwordHash": "$2b$12$jdekxBwxYBDcWrTbAW/qu.gAgXyar5ChKNrGwdXgtYqACYqsjI9Ni"
+    }
+  ],
+  "microposts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "content": "Test micropost content for OpenAPI validation",
+      "createdAt": "2025-07-06T14:10:31.661Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "content": "This is a test micropost",
+      "createdAt": "2025-07-06T14:10:35.892Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "content": "End-to-end test micropost according to OpenAPI specification",
+      "createdAt": "2025-07-06T14:10:38.442Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "content": "Test micropost content for OpenAPI validation",
+      "createdAt": "2025-07-06T14:11:39.350Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "content": "This is a test micropost",
+      "createdAt": "2025-07-06T14:11:40.481Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "content": "End-to-end test micropost according to OpenAPI specification",
+      "createdAt": "2025-07-06T14:11:43.031Z"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "content": "Test micropost content for OpenAPI validation",
+      "createdAt": "2025-07-06T14:12:25.929Z"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "content": "This is a test micropost",
+      "createdAt": "2025-07-06T14:12:27.100Z"
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "content": "End-to-end test micropost according to OpenAPI specification",
+      "createdAt": "2025-07-06T14:12:29.732Z"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "content": "Test micropost content for OpenAPI validation",
+      "createdAt": "2025-07-06T14:12:39.451Z"
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "content": "This is a test micropost",
+      "createdAt": "2025-07-06T14:12:40.567Z"
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "content": "End-to-end test micropost according to OpenAPI specification",
+      "createdAt": "2025-07-06T14:12:43.110Z"
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "content": "Test micropost content for OpenAPI validation",
+      "createdAt": "2025-07-06T14:12:51.179Z"
+    },
+    {
+      "id": 14,
+      "userId": 1,
+      "content": "This is a test micropost",
+      "createdAt": "2025-07-06T14:12:52.460Z"
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "content": "End-to-end test micropost according to OpenAPI specification",
+      "createdAt": "2025-07-06T14:12:53.802Z"
+    },
+    {
+      "id": 16,
+      "userId": 1,
+      "content": "This is a test micropost",
+      "createdAt": "2025-07-06T14:18:29.428Z"
+    },
+    {
+      "id": 17,
+      "userId": 1,
+      "content": "This is a test micropost",
+      "createdAt": "2025-07-06T14:18:46.565Z"
+    },
+    {
+      "id": 18,
+      "userId": 1,
+      "content": "End-to-end test micropost according to OpenAPI specification",
+      "createdAt": "2025-07-06T14:18:47.872Z"
+    },
+    {
+      "id": 19,
+      "userId": 1,
+      "content": "Test micropost content for OpenAPI validation",
+      "createdAt": "2025-07-06T14:18:51.089Z"
+    }
+  ]
+}

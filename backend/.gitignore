@@ -1,0 +1,9 @@
+node_modules/
+.env
+coverage/
+test/db/test-1.json
+test/db/test-2.json
+test/db/test-3.json
+test/db/test-4.json
+test/db/test-5.json
+test/db/test.json
